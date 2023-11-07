@@ -1,0 +1,122 @@
+@font-face{
+  font-family: "Michroma-Regular"; 
+  src: url('fonts/Michroma-Regular.ttf') format("truetype");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.maket {
+  background-color: #000000;
+  max-width: 100%;
+  height: 100vh;
+ 
+}
+.maket .header {
+  position: sticky;
+  z-index: 1;
+  top:0;
+  background: linear-gradient(rgb(151, 2, 2), rgb(12, 12, 12));
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 40px;
+}
+.maket .text-wrapper {
+  color: #ffffff;
+  font-family: "Michroma-Regular", Helvetica;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+.maket .overlap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.maket .text-wrapper-2, .text-wrapper-3, .text-wrapper-4,.text-wrapper-23{
+  color: #ffffff;
+  font-size: 20px;
+  white-space: nowrap;
+  font-family: "Michroma-Regular", Helvetica;
+  font-weight: 400; 
+  padding: 10px;
+  border-radius: 230px;
+  border: 3px solid;
+  border-color: #e0ffeb83;
+}
+.maket .text-wrapper-23{
+  margin-right: 60px;
+  padding: 10px 20px;
+}
+
+.maket .text-wrapper-3 {
+  margin-left: 60px;
+  
+}
+
+.maket .text-wrapper-4 {
+  margin-left: 60px;
+  padding: 10px 30px;
+  
+}
+.maket a:hover{
+  text-decoration: underline;
+  
+}
+
+
+.container-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 100%;
+  height: 80vh;
+}
+  
+  .login-container {
+    width: 340px;
+    background-color: #333;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+
+
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #e0ffeb83;
+  }
+
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+
+ 
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 300px;
+  }
+  
+  button {
+    background-color: rgb(219, 43, 37);
+    color: #fff;
+    cursor: pointer;
+  }
+  .registration-form button[type="submit"]:hover {
+    background-color: rgb(219, 43, 37);
+  }
+  
