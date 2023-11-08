@@ -98,7 +98,7 @@ a{
 }
 
 .maket .overlap-3 {
-  width: 30%;
+  width: 50%;
   height: 240px;
   border-left: 3px solid;
   border-color: #628fb9;
@@ -110,6 +110,7 @@ a{
 .maket .element {
   width: 70%;
   color: #ffffff;
+  margin-left: 120px;
   font-size: 30px;
   line-height: 64px;
   font-family: "Michroma-Regular", Helvetica;
