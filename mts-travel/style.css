@@ -35,6 +35,7 @@ a{
     align-items: center;
 }
 .maket .text-wrapper {
+    margin-top: 40px;
     color: #ffffff;
     font-family: "Michroma-Regular", Helvetica;
     font-weight: 300;
@@ -129,6 +130,17 @@ a{
     margin: 0 0 10px 0;
     text-align: center;
 } 
+.text-wrapper-10{
+    width: 300px;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Michroma-Regular", Helvetica;
+    font-weight: 400;
+    letter-spacing: 0;
+    margin: 0 0 10px 0;
+    text-align: left;
+}
 .footer{
     width: 100%;
     text-align: center;

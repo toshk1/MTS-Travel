@@ -4,28 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTS-Travel</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pokupka.css">
 </head>
 <body>
-    <div class="maket">
-        <div class="header">
-            <img src="img/pBeHC8aUtww.png" alt="" width="75">
-            <div class="text-wrapper"><h1>MTS-Travel</h1></div>
-            <div class="overlap">
-                <div class="text-wrapper-23"><a href="https://travel.mts.ru/">О нас</a></div>
-                <div class="text-wrapper-2"><a href="meet.html">Путешествия</a></div>
-                <div class="text-wrapper-3"><a href="reg.html">Зарегистрироваться</a></div>
-                <div class="text-wrapper-4"><a href="vhod.html">Вход</a></div>
-            </div>
-        </div>    
-            
-       
-        <div class="footer">
-            &copy;API, 2023
+  <div class="maket">
+    <div class="header">
+      <img src="img/logo.png" alt="" width="200">
+      <div class="text-wrapper"><h1><a href="index.html">MTS-Travel&bull;Оплата</a></h1></div>
+      <div class="overlap">
+        <div class="text-wrapper-23"><a href="https://travel.mts.ru/">О нас</a></div>
+          <div class="text-wrapper-2"><a href="meet.html">Путешествия</a></div>
+          <div class="text-wrapper-3"><a href="reg.html">Зарегистрироваться</a></div>
+          <div class="text-wrapper-4"><a href="vhod.html">Вход</a></div>
+      </div>
+  </div> 
+  <div class="container-wrapper">
+    <div class="login-container">
+      <form class="registration-form">
+        <h2>Оплата</h2>
+        <div class="input-group">
+         <input type="text" id="card" name="card" placeholder="Номер карты" required>
         </div>
-            
-            
+        <div class="input-group">
+          <input type="password" id="srok" name="srok"placeholder="Срок действия" required>
+          <div class="input-group">
+            <input type="text" id="cvv" name="cvv" placeholder="CVV" required>
+           </div>
         </div>
-   
+        <button type="submit"><a href="index.html">Оплатить 899Р</a></button>
+      </form>
+    </div>
+  </div>
+  </div>
 </body>
 </html>
